@@ -11,12 +11,11 @@ body {
 }
 
 div {
-  border: 1px solid Chocolate;
+  /*border: 1px solid Chocolate; */
 }
 
 .container {
   width: 970px;
-  height: 70px;
   margin: 0 auto;
 }
 
@@ -32,6 +31,8 @@ ul {
   width: 100%;
   position: fixed;
   z-index: 9999;
+  height: 70px;
+  border-bottom: 1px solid #ccc;
 }
 
 .nav-section .nav-links {
@@ -141,5 +142,33 @@ ul {
   font-weight: 400;
   font-size: 1.563em;
 }
+
+/*-----------------FOOTER SECTION----------*/
+
+.footer-section {
+  background-color: #fff;
+  text-align: center;
+  padding-bottom: 9.375em;
+}
+
+.icons > li {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.footer-section .fa-twitter {
+  color: #55ACEE;
+}
+
+.footer-section .fa-facebook {
+  color: #4C66A4;
+}
+
+.footer-section .fa-instagram {
+  color: #3F729B;
+}
+
+
+
 
 
