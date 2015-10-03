@@ -30,6 +30,8 @@ ul {
 .nav-section {
   background-color: #fff;
   width: 100%;
+  position: fixed;
+  z-index: 9999;
 }
 
 .nav-section .nav-links {
@@ -138,8 +140,6 @@ ul {
 .features-section .features h3 {
   font-weight: 400;
   font-size: 1.563em;
-  
-
 }
 
 
