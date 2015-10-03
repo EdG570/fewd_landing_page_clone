@@ -183,6 +183,10 @@ ul {
   padding: 0.625em 0;
 }
 
+.footer-section li:last-child {
+  margin-right: 0;
+}
+
 .footer-section p {
   color: #aaa;
   font-weight: 200;
