@@ -66,5 +66,48 @@ div {
   font-weight: 500;
 }
 
+/*--------------HEADER SECTION---------*/
+
+.header-section {
+  background-image: url('images/background.jpg');
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  height: 45.938em;
+  overlfow: auto;
+  text-align: center;
+  padding: 15em 0;
+}
+
+.header-section h1 {
+  font-weight: 200;
+  font-size: 3.125em;
+  margin-bottom: 0;
+}
+
+.header-section h1,
+.header-section h2 {
+  color: #fff;
+  font-family: 'Roboto', sans-serif; 
+}
+
+.header-section h2 {
+  font-weight: 200;
+  font-size: 1.562em;
+ 
+}
+
+.header-section button {
+  text-decoration: none;
+  color: #fff;
+  padding: 1.1em 2.3em;
+  background-color: #f15a29;
+  border-radius: 5px;
+  border-style: none;
+}
+
+.header-section button:hover {
+  background-color: #D9400E;
+}
 
 
